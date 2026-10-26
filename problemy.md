@@ -8,9 +8,9 @@
 
 ## `lightdm` a XFCE na Debianu (5. 6.)
 **Příznak:** XFCE nenaběhlo, hláška `Failed to connect to session manager: SESSION_MANAGER environment variable not defined`.
-**Příčina:** TODO
-**Řešení:** TODO
-**Poučení:** TODO
+**Příčina:** Přesnou příčinu jsem nezjistil, session manager se nepřipojil a XFCE po přihlášení nenaběhlo.
+**Řešení:** Přeinstaloval jsem display manager.
+**Poučení:** Přeinstalace display manageru je rychlý způsob, jak vyloučit poškozenou konfiguraci. Příště bych se kromě toho podíval do logů (`journalctl -b`, `~/.xsession-errors`), abych příčinu opravdu našel.
 
 ## Arch: `failed to mount /boot` (20. 7.)
 **Příznak:** Systém po startu nenamountoval `/boot`.

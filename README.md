@@ -1,6 +1,6 @@
 # Moje cesta s Linuxem
 
-Od února 2026 jsem si na dvou noteboocích a jednom serveru prošel několik distribucí a prostředí. Tady je časová osa s tím, co jsem zkoušel, co jsem rozbil a čemu jsem se naučil. Související projekt: [homelab-docs](../homelab-docs).
+Od února 2026 jsem si na dvou noteboocích a jednom serveru prošel několik distribucí a prostředí. Tady je časová osa s tím, co jsem zkoušel a co jsem při tom rozbil. Související projekt: [homelab-docs](https://github.com/Ondrej-Stahl/homelab-docs).
 
 ## Časová osa
 
@@ -27,26 +27,13 @@ Od února 2026 jsem si na dvou noteboocích a jednom serveru prošel několik di
 
 ## Etapy
 
-### 1. Začátky: Linux Mint (únor až duben)
-Co jsem používal / proč jsem začal / co jsem se naučil:
-TODO
+**Linux Mint (únor až březen).** Mint na EliteBooku (13. 2.) a na HP 15s (26. 3.). Od té doby Windows na noteboocích nepoužívám.
 
-### 2. Distro-hopping: Kali, Debian, Arch s dwm (duben až červenec)
-Proč jsem měnil, co jsem zkoušel, co nefungovalo (lightdm, `/boot`):
-TODO
+**Distro-hopping (duben až červenec).** Na EliteBooku Kali (14. 4.), Debian (6. 5.) a Arch s vlastním dwm (27.–31. 5.). HP 15s přešlo z Mintu na Debian s XFCE (12. 5.). Problémy, které při tom vznikly, jsou v [problemy.md](problemy.md).
 
-### 3. NixOS (od srpna)
-Proč NixOS, jak vypadá konfigurace jako kód, i3, Wine, externí monitor:
-TODO
+**NixOS (od srpna).** NixOS na EliteBooku od 5. 8., externí monitor (20. 8.), kompilace Wine (23. 8.) a konfigurace i3 (12. 9.).
 
-### 4. Server (od března)
-Ubuntu Server → homelab, upgrade na 26.04, lokální AI. Podrobnosti v [homelab-docs](../homelab-docs):
-TODO
+**Server (od března).** Ubuntu Server od 4. 3., lokální model llama3.2:3b (8. 10.) a upgrade na 26.04 LTS (16. 10.). Podrobnosti v [homelab-docs](https://github.com/Ondrej-Stahl/homelab-docs).
 
 ## Problémy, které jsem řešil
-- Repozitář `cz.archive.ubuntu.com` při updatu (1. 4.)
-- `lightdm` na Debianu (5. 6.)
-- `failed to mount /boot` na Archu (20. 7.)
-- `failed to load kernel modules` při instalaci NixOS (4. 8.)
-
-TODO: ke každému jednou dvěma větami, jak jsem příčinu našel a opravil.
+Podrobně v [problemy.md](problemy.md).
