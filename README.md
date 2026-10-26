@@ -12,6 +12,7 @@ Od února 2026 jsem si na dvou noteboocích a jednom serveru prošel několik di
 | 1. 4. | Problém s repozitářem `cz.archive.ubuntu.com` při updatu |
 | 14. 4. | Kali Linux na EliteBook: zkoumání bezpečnostních nástrojů |
 | 6. 5. | Debian na EliteBook |
+| 12. 5. | Debian na HP 15s (XFCE) |
 | 27. 5. | Arch Linux, první pokusy o dwm |
 | 31. 5. | Funkční dwm na Archu (EliteBook) |
 | 5. 6. | Problém s `lightdm` na Debianu |
