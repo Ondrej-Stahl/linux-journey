@@ -24,6 +24,7 @@ Od února 2026 jsem si na dvou noteboocích a jednom serveru prošel několik di
 | 12. 9. | Konfigurace a instalace i3 |
 | 8. 10. | Lokální model llama3.2:3b na serveru |
 | 16. 10. | Upgrade serveru Ubuntu 24.04 → 26.04 LTS |
+| 3. 11. | migrace serveru z Ubuntu na NixOS (jediný problém: překlep v hostName)
 
 ## Etapy
 
